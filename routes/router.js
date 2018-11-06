@@ -1,7 +1,7 @@
 var request = require('request');
-var redis = require('redis');
-var REDIS_PORT = process.env.REDIS_PORT;
-var client = redis.createClient(REDIS_PORT);
+// var redis = require('redis');
+// var REDIS_PORT = process.env.REDIS_PORT;
+// var client = redis.createClient(REDIS_PORT);
 const geo = require ('geoip2ws') ({
   userId: "137237",
   licenseKey: 'WYaoRKN04uXt',

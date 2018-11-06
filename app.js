@@ -13,9 +13,9 @@ routes(app);
 
 const PORT = process.env.PORT || 3000;
 
-const redis = require('redis');
-const REDIS_PORT = process.env.REDIS_PORT;
-const client = redis.createClient(REDIS_PORT);
+// const redis = require('redis');
+// const REDIS_PORT = process.env.REDIS_PORT;
+// const client = redis.createClient(REDIS_PORT);
 // client(app);
 
 

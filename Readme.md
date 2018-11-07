@@ -17,11 +17,17 @@ Objectives Completed:
  - If demographics cannot be obtained due to failure of microservice, we inject "Not Found" for "pct_female"
  - The application was also tested through Postman to run about 50 requests at a 50ms delay between each requests. Application was successfully able to handle all requests.
 
-### Installing
+### Setup 
 
-cd into project directory 
-"npm intsall" will install all your dependencies
-npm start should start the server and get the project running 
+#### Install dependencies 
+```
+npm install
+```
+
+#### Start server
+```
+npm start
+```
 
 ### Testing 
 

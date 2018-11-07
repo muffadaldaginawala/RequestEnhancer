@@ -7,8 +7,6 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-const routes = require("./routes/router.js");
-
 const PORT = process.env.PORT || 3000;
 const apicontroller = require("./controllers/api")
 
